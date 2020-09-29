@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Liste d'épicerie</title>
+</head>
+<body>
+    <main>
+        <h1>Liste d'épicerie</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <td><p class="pomme">🍎</p></td>
+                    <td><p class="pizza">🍕</p></td>
+                    <td><p class="salade">🥬</p></td>
+                </tr>
+                <tr>
+                    <td><p class="fraise">🍓</p></td>
+                    <td><p class="burger">🍔</p></td>
+                    <td><p class="pasteque">🍉</p></td>
+                </tr>
+                <tr>
+                    <td><p class="poulet">🍗</p></td>
+                    <td><p class="raisin">🍇</p></td>
+                    <td><p class="poivron">🍏</p></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <div class="crayon">
+        <img src="pen.png" alt="Crayon" class="img-crayon">
+    </div>
+
+    <div class="wrapper-formulaire">
+        <div class="formulaire">
+
+            <input type="text" name="entree" id="form_entree">
+            <button class='ajout-entree' onclick="test();">Ajouter</button>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
